@@ -1,0 +1,32 @@
+.statistics {
+    margin: 50px auto;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px;
+}
+
+.title {
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.stat_list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+
+.stat_list_item {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10%;
+    transition: transform var(--delay-time);
+}
+
+.stat_list_item:hover {
+    transform: scale(1.2);
+}

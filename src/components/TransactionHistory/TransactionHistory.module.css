@@ -1,0 +1,38 @@
+.transaction_history {
+    width: 500px;
+    border: 3px solid;
+    text-align: center;
+    margin: auto;
+  }
+  
+th {
+    border: 1px solid;
+    background-color: var(--transaction-title-bg-color);
+    color: var(--transaction-title-color);
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+td {
+    border: 2px solid;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px 0 10px 0;
+}
+  
+tr {
+    background-color: var(--transaction-title-color);
+}
+
+tr:nth-child(odd) {
+    background-color: var(--transaction-table-bg-color);
+}
+
+.strings {
+    transition: transform var(--delay-time);
+}
+
+.strings:hover {
+    transform: scale(1.2);
+}

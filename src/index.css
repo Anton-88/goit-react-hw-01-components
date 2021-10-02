@@ -1,0 +1,32 @@
+:root {
+  /*User profile section*/
+  --user-tag-color:rgb(94, 92, 205);
+  --user-avatar-bg-color: rgb(99, 205, 219);
+  --user-stats-bg-color: rgb(0, 0, 0);
+  --user-stats-color: rgb(255, 255, 255);
+  /*statistics section*/
+  /*friendlist section*/
+  --friend-avatar-bg-color: rgb(50, 205, 184);
+  /*transaction section*/
+  --transaction-title-color: rgb(255, 255, 255);
+  --transaction-title-bg-color: rgb(60, 163, 158);;
+  --transaction-table-bg-color: rgb(213, 217, 218);
+
+  /*other general variables*/
+  --delay-time: 500ms;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+

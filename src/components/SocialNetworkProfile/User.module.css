@@ -1,0 +1,88 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    margin: 30px auto;
+    border-radius: 25px;
+    box-shadow: 0 0 20px;
+}
+
+.name {
+    font-size: 36px;
+    margin: 10px;
+}
+
+.tag {
+    font-size: 24px;
+    color: var(--user-tag-color);
+    margin: 10px;
+    cursor: pointer;
+}
+
+.location {
+    font-size: 24px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+
+}
+  
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: var(--user-avatar-bg-color);
+}
+
+.stats {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding-left: 0;
+}
+
+.stats_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 0 15px;
+
+    transition: transform var(--delay-time), 
+                background-color var(--delay-time), 
+                color var(--delay-time);
+}
+
+.stats_item:hover {
+    transform: scale(1.2);
+    background-color: var(--user-stats-bg-color);
+    color: var(--user-stats-color);
+}
+
+.label {
+    margin: 0 15px;
+}
+
+.quantity {
+    font-size: 24px;
+    margin: 0 5px;
+}
